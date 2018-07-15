@@ -1,0 +1,97 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat';
+}
+/* COLOCAR AS COISAS NO LUGAR */
+body{
+    margin: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 5vh 75vh 10vh;
+    grid-template-areas:
+    "sidebar main"
+    "sidebar main"
+    "footer footer";
+    background: #3a7bd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* SIDEBAR */
+.sidebar{
+    grid-area:sidebar;
+    background: #e8e8e8;
+    text-align: center;
+    color: black;
+}
+nav{
+    font-size: 1.1em;
+    background-color:#d1d1d1; 
+}
+nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+nav ul li {
+    width: 100%;
+}
+nav ul a {
+    text-decoration: none;
+    color:black;
+}
+
+h2{
+    color:black;
+}
+
+h3{
+    color:black;
+}
+
+
+/* CONTEUDO PRINCIPAL */
+.main-content{
+    grid-area:main;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 10%;
+    flex-direction: column;
+}
+
+p{
+    font-size: 1.3em;
+    margin-top: 0;
+}
+
+h1{
+    font-size: 3em;
+}
+
+/* BOTAO */
+
+.cta {
+    display: absolute;
+    color: #fff;
+    background: #3a7bd5;
+    text-decoration: none;
+    padding: 15px 100px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* RODAPÉ */
+.footer{
+    grid-area: footer;
+    background: #d1d1d1;
+}
+
+.copyright{
+    text-align: center;
+    color:black;
+}
+
