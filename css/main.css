@@ -57,7 +57,7 @@ h3{
 }
 
 li:hover{
-    background-color: 
+    background-color: #777F84;
 }
 
 /* CONTEUDO PRINCIPAL */
@@ -111,7 +111,7 @@ h1{
     display:flex;
     justify-content: space-around;
     flex-wrap: nowrap;
-   
+    font-size: 0.8em;
 }
 
 #social{
@@ -134,4 +134,5 @@ h1{
     align-self: center;
     padding-left: 30px;
     padding-top: 10px;
+    
 }
