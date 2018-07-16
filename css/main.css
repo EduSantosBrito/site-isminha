@@ -32,9 +32,16 @@ nav{
 nav ul {
     list-style-type: none;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
 }
 nav ul li {
-    width: 100%;
+    width: 90%;
+    padding: 5%;
+    
 }
 nav ul a {
     text-decoration: none;
@@ -84,14 +91,37 @@ h1{
     border-radius: 4px;
 }
 
+
+
 /* RODAPÉ */
 .footer{
     grid-area: footer;
     background: #d1d1d1;
+    flex-direction:row;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+   
 }
 
-.copyright{
-    text-align: center;
-    color:black;
+#social{
+   justify-self:start;
+   align-self: center;
+   padding-bottom: 8px;
+   
 }
 
+#copyright{
+    justify-self: center;
+    align-self: center;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-left:20px;
+}
+
+#email{
+    justify-self: end;
+    align-self: center;
+    padding-left: 30px;
+    padding-top: 10px;
+}
