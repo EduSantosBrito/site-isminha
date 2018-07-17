@@ -152,7 +152,7 @@ h1{
     body{ 
         margin:5vh;
         grid-template-columns: 1fr;
-        grid-template-rows: 33vh 75vh 20vh;
+        grid-template-rows: 40vh 80vh 30vh;
         grid-template-areas: "sidebar" "main" "footer";
     }
 
